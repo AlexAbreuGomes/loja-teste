@@ -1,6 +1,6 @@
 import { data } from "../data";
 
-export const getCategories = (id: number) => {
+export const getCategoriesById = (id: number) => {
     return data.categories.find(item => item.id === id);
 }
 
